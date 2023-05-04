@@ -29,7 +29,10 @@ export function onPointerDown({
 }) {
   d3.select(event.target as HTMLElement).attr(
     "style",
-    `cursor: grabbing; border: 2px solid silver; border-radius: 5px`
+    `cursor: grabbing; 
+     border: 2px solid silver; 
+     border-radius: 5px; 
+     background-color: #d6d6d6`
   );
 
   setIsPointerDown(true);
@@ -81,7 +84,10 @@ export function onPointerUp({
 }) {
   d3.select(event.target as HTMLElement).attr(
     "style",
-    `cursor: grab; border: 2px solid silver; border-radius: 5px`
+    `cursor: grab;
+     border: 2px solid silver; 
+     border-radius: 5px;
+     background-color: #d6d6d6`
   );
 
   setIsPointerDown(false);

@@ -1,0 +1,13 @@
+.buttonsContainer {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.rhombus {
+  transform: translate(0, 100px) rotate(45deg);
+  transform-origin: center;
+}
