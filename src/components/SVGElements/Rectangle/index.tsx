@@ -12,12 +12,12 @@ const Rectangle = ({
   textData: string;
 }) => {
   const leftLineX = (parseInt(x) + 10).toString();
-  const leftLineY1 = (parseInt(y) + 10).toString();
-  const leftLineY2 = (parseInt(y) + 40).toString();
+  // const leftLineY1 = (parseInt(y) + 10).toString();
+  // const leftLineY2 = (parseInt(y) + 40).toString();
 
-  const rightLineX = parseInt(x) + parseInt(width) - 10;
-  const rightLineY1 = (parseInt(y) + 10).toString();
-  const rightLineY2 = (parseInt(y) + 40).toString();
+  // const rightLineX = parseInt(x) + parseInt(width) - 10;
+  // const rightLineY1 = (parseInt(y) + 10).toString();
+  // const rightLineY2 = (parseInt(y) + 40).toString();
 
   return (
     <g>
@@ -32,7 +32,6 @@ const Rectangle = ({
         stroke="#000"
       ></rect>
       <text
-        // x={(parseInt(x) + 100).toString()}
         x={(parseInt(leftLineX) + 90).toString()}
         y={(parseInt(y) + 30).toString()}
         fill="#000"
@@ -40,7 +39,8 @@ const Rectangle = ({
       >
         {textData}
       </text>
-      <line
+
+      {/* <line
         stroke="#000"
         x1={leftLineX}
         y1={leftLineY1}
@@ -53,7 +53,7 @@ const Rectangle = ({
         y1={rightLineY1}
         x2={rightLineX}
         y2={rightLineY2}
-      ></line>
+      ></line> */}
     </g>
   );
 };

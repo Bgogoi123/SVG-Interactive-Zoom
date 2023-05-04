@@ -1,7 +1,8 @@
-import FlowChart from "./pages/FlowChart";
+import "./App.css";
+import SVGViewer from "./pages/SVGViewer";
 
 function App() {
-  return <FlowChart />;
+  return <SVGViewer />;
 }
 
 export default App;

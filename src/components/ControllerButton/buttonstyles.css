@@ -1,0 +1,20 @@
+.controllerbutton {
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(95, 157, 205);
+  box-shadow: 1px 1px 3px 0px #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.controllerbutton:hover {
+  background-color: rgb(134, 159, 178);
+  transition-duration: 0.3s;
+}
+
+.controllerbutton:active {
+  background-color: rgb(95, 157, 205);
+  transform: scale(0.9);
+}

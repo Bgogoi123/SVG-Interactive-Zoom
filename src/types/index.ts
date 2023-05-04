@@ -1,4 +1,4 @@
-export type TFlowChartButtons = {
+export type TSVGControllersProps = {
   zoomIn(): void;
   zoomOut(): void;
   resetAll(): void;
